@@ -1,0 +1,15 @@
+{
+  "name": "馬上到 LINKGO 配送夥伴招募",
+  "short_name": "LINKGO 招募",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fbfdff",
+  "theme_color": "#1188f7",
+  "icons": [
+    {
+      "src": "assets/images/linkgo-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
