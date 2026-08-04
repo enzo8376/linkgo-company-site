@@ -4,32 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#162337">
-  <meta name="description" content="盛形通運有限公司｜馬上到 LINKGO，提供城市物流、門市配送、最後一哩運輸、彈性運力整合與配送夥伴招募。">
-  <title>盛形通運有限公司｜馬上到 LINKGO</title>
+  <meta name="description" content="蝦皮智取店店到宅配送夥伴招募｜3公里市區配送、日常輕物件、有人教有人帶。">
+  <title>蝦皮智取店店到宅配送｜馬上到 LINKGO</title>
 
   <style>
     :root {
       --navy-950: #101a29;
       --navy-900: #162337;
-      --navy-800: #223650;
-      --navy-700: #314965;
+      --navy-800: #243852;
       --bronze-600: #947247;
       --bronze-500: #aa875b;
       --bronze-100: #eee5d8;
       --ink: #202c3b;
       --muted: #697587;
       --paper: #f5f4f1;
-      --paper-soft: #faf9f7;
       --white: #ffffff;
       --line: #dde3e9;
       --success: #356b57;
-      --shadow-lg: 0 28px 70px rgba(16, 26, 41, 0.13);
-      --shadow-md: 0 16px 42px rgba(16, 26, 41, 0.09);
-      --shadow-sm: 0 8px 24px rgba(16, 26, 41, 0.065);
-      --radius-xl: 28px;
-      --radius-lg: 20px;
-      --radius-md: 14px;
-      --max-width: 1180px;
+      --shadow-lg: 0 24px 62px rgba(16, 26, 41, 0.13);
+      --shadow-md: 0 14px 38px rgba(16, 26, 41, 0.09);
+      --radius-xl: 26px;
+      --radius-lg: 18px;
+      --radius-md: 13px;
+      --max-width: 1120px;
     }
 
     * {
@@ -40,7 +37,7 @@
 
     html {
       scroll-behavior: smooth;
-      scroll-padding-top: 84px;
+      scroll-padding-top: 78px;
     }
 
     body {
@@ -56,8 +53,7 @@
         "Segoe UI",
         sans-serif;
       font-size: 16px;
-      line-height: 1.75;
-      letter-spacing: 0.01em;
+      line-height: 1.7;
       overflow-x: hidden;
       -webkit-text-size-adjust: 100%;
       text-size-adjust: 100%;
@@ -81,12 +77,12 @@
     }
 
     .container {
-      width: min(calc(100% - 40px), var(--max-width));
+      width: min(calc(100% - 36px), var(--max-width));
       margin-inline: auto;
     }
 
     .section {
-      padding: 104px 0;
+      padding: 82px 0;
     }
 
     .section-soft {
@@ -101,39 +97,37 @@
     .eyebrow {
       display: inline-flex;
       align-items: center;
-      gap: 10px;
+      gap: 9px;
       color: var(--bronze-600);
-      font-size: 0.78rem;
+      font-size: 0.76rem;
       font-weight: 900;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      margin-bottom: 14px;
+      letter-spacing: 0.14em;
+      margin-bottom: 12px;
     }
 
     .eyebrow::before {
       content: "";
-      width: 28px;
+      width: 24px;
       height: 2px;
       background: currentColor;
     }
 
     .section-heading {
-      max-width: 780px;
-      margin-bottom: 48px;
+      max-width: 720px;
+      margin-bottom: 34px;
     }
 
     .section-heading h2 {
       color: var(--navy-900);
-      font-size: clamp(2rem, 4vw, 3.2rem);
-      line-height: 1.22;
-      letter-spacing: -0.035em;
-      margin-bottom: 16px;
+      font-size: clamp(1.85rem, 4vw, 2.8rem);
+      line-height: 1.24;
+      letter-spacing: -0.03em;
+      margin-bottom: 12px;
     }
 
     .section-heading p {
-      max-width: 720px;
       color: var(--muted);
-      font-size: clamp(1rem, 1.5vw, 1.08rem);
+      font-size: 1rem;
     }
 
     .section-dark .section-heading h2 {
@@ -145,23 +139,19 @@
     }
 
     .section-dark .eyebrow {
-      color: #d6bd9b;
+      color: #d8bf9d;
     }
 
     .btn {
-      min-height: 52px;
+      min-height: 50px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      padding: 0 24px;
+      padding: 0 22px;
       border-radius: 12px;
-      font-size: 0.96rem;
+      font-size: 0.95rem;
       font-weight: 900;
-      letter-spacing: 0.02em;
-      transition:
-        transform 0.2s ease,
-        box-shadow 0.2s ease,
-        background 0.2s ease;
+      transition: transform 0.2s ease, background 0.2s ease;
     }
 
     .btn:hover {
@@ -171,17 +161,11 @@
     .btn-primary {
       color: var(--white);
       background: var(--navy-900);
-      box-shadow: 0 12px 28px rgba(22, 35, 55, 0.22);
-    }
-
-    .btn-primary:hover {
-      background: var(--navy-800);
     }
 
     .btn-bronze {
       color: var(--white);
       background: linear-gradient(135deg, var(--bronze-600), var(--bronze-500));
-      box-shadow: 0 12px 28px rgba(148, 114, 71, 0.24);
     }
 
     .btn-light {
@@ -200,80 +184,68 @@
       position: sticky;
       top: 0;
       z-index: 1000;
-      background: rgba(255, 255, 255, 0.94);
+      background: rgba(255, 255, 255, 0.95);
       border-bottom: 1px solid rgba(221, 227, 233, 0.92);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
     }
 
     .nav {
-      min-height: 76px;
+      min-height: 72px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 24px;
+      gap: 20px;
     }
 
     .brand {
-      display: inline-flex;
+      display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 11px;
       color: var(--navy-900);
       font-weight: 900;
-      white-space: nowrap;
     }
 
     .brand-mark {
-      width: 46px;
-      height: 46px;
-      flex: 0 0 46px;
+      width: 42px;
+      height: 42px;
+      flex: 0 0 42px;
       display: grid;
       place-items: center;
       color: var(--white);
-      background: linear-gradient(145deg, var(--navy-900), var(--navy-700));
-      border-radius: 14px;
-      box-shadow: 0 10px 24px rgba(22, 35, 55, 0.2);
-      font-size: 0.93rem;
-      letter-spacing: 0.04em;
+      background: linear-gradient(145deg, var(--navy-900), #344d6d);
+      border-radius: 13px;
+      font-size: 0.86rem;
     }
 
     .brand-copy {
-      line-height: 1.25;
+      line-height: 1.2;
     }
 
     .brand-copy strong {
       display: block;
-      font-size: 1rem;
+      font-size: 0.96rem;
     }
 
     .brand-copy small {
       display: block;
       color: var(--muted);
-      font-size: 0.68rem;
+      font-size: 0.62rem;
       font-weight: 600;
-      letter-spacing: 0.06em;
       margin-top: 4px;
     }
 
     .nav-links {
       display: flex;
       align-items: center;
-      gap: 24px;
-      color: #465365;
-      font-size: 0.89rem;
+      gap: 22px;
+      color: #485567;
+      font-size: 0.87rem;
       font-weight: 800;
     }
 
-    .nav-links a {
-      transition: color 0.2s ease;
-    }
-
-    .nav-links a:hover {
-      color: var(--navy-900);
-    }
-
     .nav-links .nav-cta {
-      padding: 10px 16px;
+      padding: 9px 15px;
       color: var(--white);
       background: var(--navy-900);
       border-radius: 999px;
@@ -281,569 +253,322 @@
 
     .menu-button {
       display: none;
-      width: 44px;
-      height: 44px;
+      width: 42px;
+      height: 42px;
       place-items: center;
       color: var(--navy-900);
       background: transparent;
       border: 0;
-      font-size: 1.65rem;
+      font-size: 1.55rem;
       cursor: pointer;
     }
 
     .hero {
       position: relative;
       overflow: hidden;
-      padding: 94px 0 104px;
+      padding: 76px 0 90px;
       background:
-        radial-gradient(circle at 88% 12%, rgba(148, 114, 71, 0.15), transparent 25%),
+        radial-gradient(circle at 90% 12%, rgba(148, 114, 71, 0.16), transparent 25%),
         linear-gradient(180deg, #f7f6f3 0%, #ffffff 100%);
     }
 
-    .hero::after {
-      content: "";
-      position: absolute;
-      width: 520px;
-      height: 520px;
-      right: -235px;
-      bottom: -265px;
-      border: 74px solid rgba(22, 35, 55, 0.052);
-      border-radius: 50%;
-      pointer-events: none;
-    }
-
     .hero-layout {
-      position: relative;
-      z-index: 1;
       display: grid;
-      grid-template-columns: minmax(0, 1.04fr) minmax(420px, 0.96fr);
-      gap: 70px;
+      grid-template-columns: minmax(0, 1.02fr) minmax(390px, 0.98fr);
+      gap: 58px;
       align-items: center;
     }
 
-    .hero-copy h1 {
-      max-width: 700px;
+    .hero h1 {
       color: var(--navy-900);
-      font-size: clamp(2.8rem, 5.6vw, 5rem);
-      line-height: 1.06;
-      letter-spacing: -0.055em;
-      margin-bottom: 24px;
+      font-size: clamp(2.55rem, 5.4vw, 4.55rem);
+      line-height: 1.08;
+      letter-spacing: -0.05em;
+      margin-bottom: 20px;
     }
 
-    .hero-copy h1 span {
+    .hero h1 span {
+      display: block;
       color: var(--bronze-600);
+      margin-top: 7px;
     }
 
     .hero-copy > p {
-      max-width: 670px;
+      max-width: 640px;
       color: var(--muted);
-      font-size: clamp(1.05rem, 1.7vw, 1.18rem);
-      line-height: 1.82;
-      margin-bottom: 30px;
+      font-size: clamp(1rem, 1.6vw, 1.13rem);
+      margin-bottom: 26px;
     }
 
     .hero-points {
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
-      margin-bottom: 32px;
+      gap: 9px;
+      margin-bottom: 28px;
     }
 
     .hero-point {
-      padding: 8px 13px;
+      padding: 8px 12px;
       color: var(--navy-800);
       background: var(--white);
       border: 1px solid var(--line);
       border-radius: 999px;
-      box-shadow: 0 5px 16px rgba(16, 26, 41, 0.04);
-      font-size: 0.87rem;
+      font-size: 0.84rem;
       font-weight: 800;
     }
 
     .hero-actions {
       display: flex;
       flex-wrap: wrap;
-      gap: 12px;
+      gap: 11px;
     }
 
-    .hero-media {
+    .hero-photo {
       position: relative;
-    }
-
-    .hero-image {
       overflow: hidden;
       background: var(--paper);
-      border: 1px solid rgba(221, 227, 233, 0.9);
+      border: 1px solid var(--line);
       border-radius: var(--radius-xl);
       box-shadow: var(--shadow-lg);
     }
 
-    .hero-image img {
-      aspect-ratio: 4 / 4.45;
+    .hero-photo img {
+      aspect-ratio: 4 / 3.45;
       object-fit: cover;
-      object-position: center 43%;
+      object-position: center;
     }
 
-    .hero-card {
+    .trust-label {
       position: absolute;
-      left: -36px;
-      bottom: 34px;
-      width: min(330px, 76%);
-      padding: 20px 22px;
+      left: 18px;
+      right: 18px;
+      bottom: 18px;
+      padding: 14px 16px;
       color: var(--white);
-      background: rgba(22, 35, 55, 0.95);
-      border: 1px solid rgba(255, 255, 255, 0.14);
-      border-radius: 18px;
-      box-shadow: var(--shadow-md);
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
+      background: rgba(22, 35, 55, 0.93);
+      border-radius: 14px;
+      font-size: 0.84rem;
+      font-weight: 800;
     }
 
-    .hero-card strong {
-      display: block;
-      font-size: 1.03rem;
-      margin-bottom: 5px;
-    }
-
-    .hero-card p {
-      color: rgba(255, 255, 255, 0.7);
-      font-size: 0.88rem;
-      line-height: 1.65;
-    }
-
-    .summary-strip {
-      position: relative;
-      z-index: 3;
-      margin-top: -38px;
-    }
-
-    .summary-grid {
+    .quick-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      overflow: hidden;
-      background: var(--white);
-      border: 1px solid var(--line);
-      border-radius: 22px;
-      box-shadow: var(--shadow-md);
+      gap: 14px;
+      margin-top: -34px;
+      position: relative;
+      z-index: 3;
     }
 
-    .summary-item {
-      min-height: 118px;
+    .quick-card {
+      min-height: 108px;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 24px 26px;
-    }
-
-    .summary-item + .summary-item {
-      border-left: 1px solid var(--line);
-    }
-
-    .summary-item strong {
-      display: block;
-      color: var(--navy-900);
-      font-size: clamp(1.22rem, 2.3vw, 1.58rem);
-      line-height: 1.3;
-      margin-bottom: 5px;
-    }
-
-    .summary-item span {
-      color: var(--muted);
-      font-size: 0.84rem;
-    }
-
-    .about-layout {
-      display: grid;
-      grid-template-columns: 0.92fr 1.08fr;
-      gap: 70px;
-      align-items: center;
-    }
-
-    .about-photo {
-      overflow: hidden;
-      border-radius: var(--radius-xl);
+      padding: 20px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 16px;
       box-shadow: var(--shadow-md);
     }
 
-    .about-photo img {
-      aspect-ratio: 4 / 3;
-      object-fit: cover;
-    }
-
-    .about-content h2 {
+    .quick-card strong {
       color: var(--navy-900);
-      font-size: clamp(2rem, 4vw, 3.15rem);
-      line-height: 1.2;
-      letter-spacing: -0.035em;
-      margin-bottom: 18px;
-    }
-
-    .about-content > p {
-      color: var(--muted);
-      font-size: 1.05rem;
-      margin-bottom: 30px;
-    }
-
-    .value-list {
-      display: grid;
-      gap: 18px;
-    }
-
-    .value-item {
-      display: grid;
-      grid-template-columns: 44px 1fr;
-      gap: 16px;
-      align-items: start;
-    }
-
-    .value-number {
-      width: 44px;
-      height: 44px;
-      display: grid;
-      place-items: center;
-      color: var(--white);
-      background: var(--navy-900);
-      border-radius: 13px;
-      font-size: 0.83rem;
-      font-weight: 900;
-    }
-
-    .value-item h3 {
-      color: var(--navy-900);
-      font-size: 1.06rem;
+      font-size: 1.2rem;
+      line-height: 1.35;
       margin-bottom: 4px;
     }
 
-    .value-item p {
+    .quick-card span {
       color: var(--muted);
-      font-size: 0.93rem;
+      font-size: 0.8rem;
     }
 
-    .service-grid {
+    .flow-layout {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-    }
-
-    .service-card {
-      min-height: 220px;
-      padding: 28px;
-      background: var(--white);
-      border: 1px solid var(--line);
-      border-radius: var(--radius-lg);
-      transition:
-        transform 0.25s ease,
-        box-shadow 0.25s ease;
-    }
-
-    .service-card:hover {
-      transform: translateY(-5px);
-      box-shadow: var(--shadow-sm);
-    }
-
-    .service-icon {
-      width: 48px;
-      height: 48px;
-      display: grid;
-      place-items: center;
-      margin-bottom: 20px;
-      color: var(--navy-900);
-      background: var(--bronze-100);
-      border-radius: 14px;
-      font-size: 1.18rem;
-      font-weight: 900;
-    }
-
-    .service-card h3 {
-      color: var(--navy-900);
-      font-size: 1.14rem;
-      margin-bottom: 9px;
-    }
-
-    .service-card p {
-      color: var(--muted);
-      font-size: 0.93rem;
-      line-height: 1.7;
-    }
-
-    .operations-layout {
-      display: grid;
-      grid-template-columns: 1.04fr 0.96fr;
+      grid-template-columns: 0.96fr 1.04fr;
       gap: 48px;
       align-items: center;
     }
 
-    .operations-photo {
+    .flow-photo {
       overflow: hidden;
       border-radius: var(--radius-xl);
       box-shadow: var(--shadow-md);
     }
 
-    .operations-photo img {
-      aspect-ratio: 16 / 11;
+    .flow-photo img {
+      aspect-ratio: 4 / 4.7;
       object-fit: cover;
     }
 
-    .operations-copy h2 {
-      color: var(--navy-900);
-      font-size: clamp(2rem, 4vw, 3rem);
-      line-height: 1.22;
-      letter-spacing: -0.035em;
-      margin-bottom: 16px;
-    }
-
-    .operations-copy > p {
-      color: var(--muted);
-      margin-bottom: 26px;
-    }
-
-    .operations-list {
+    .steps {
       display: grid;
       gap: 14px;
+      margin-top: 24px;
     }
 
-    .operations-item {
-      padding: 17px 18px;
-      background: var(--paper-soft);
+    .step {
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      gap: 14px;
+      align-items: start;
+      padding: 17px;
+      background: var(--white);
       border: 1px solid var(--line);
-      border-radius: 14px;
+      border-radius: 15px;
     }
 
-    .operations-item strong {
+    .step-number {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      color: var(--white);
+      background: var(--navy-900);
+      border-radius: 11px;
+      font-size: 0.82rem;
+      font-weight: 900;
+    }
+
+    .step strong {
       display: block;
       color: var(--navy-900);
       margin-bottom: 3px;
     }
 
-    .operations-item span {
+    .step p {
       color: var(--muted);
-      font-size: 0.91rem;
+      font-size: 0.9rem;
     }
 
-    .recruit-layout {
+    .recruit-grid {
       display: grid;
-      grid-template-columns: 1.02fr 0.98fr;
-      gap: 26px;
-      align-items: stretch;
+      grid-template-columns: 0.95fr 1.05fr;
+      gap: 24px;
     }
 
-    .recruit-card {
-      padding: 34px;
+    .panel {
+      padding: 30px;
       background: rgba(255, 255, 255, 0.07);
       border: 1px solid rgba(255, 255, 255, 0.12);
       border-radius: var(--radius-lg);
     }
 
-    .recruit-card h3 {
-      font-size: 1.35rem;
-      margin-bottom: 22px;
+    .panel h3 {
+      font-size: 1.3rem;
+      margin-bottom: 20px;
     }
 
-    .work-list {
-      display: grid;
-      gap: 17px;
+    .pay-card {
+      padding: 19px 20px;
+      margin-bottom: 12px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 14px;
     }
 
-    .work-item {
-      display: grid;
-      grid-template-columns: 34px 1fr;
-      gap: 13px;
-      align-items: start;
-    }
-
-    .work-number {
-      width: 30px;
-      height: 30px;
-      display: grid;
-      place-items: center;
-      color: var(--navy-900);
-      background: #d9c4a5;
-      border-radius: 9px;
-      font-size: 0.75rem;
-      font-weight: 900;
-    }
-
-    .work-item strong {
+    .pay-card span {
       display: block;
-      color: var(--white);
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 0.82rem;
+      margin-bottom: 4px;
+    }
+
+    .pay-card strong {
+      color: #e6d2b4;
+      font-size: clamp(1.55rem, 3vw, 2.1rem);
+      line-height: 1.25;
+    }
+
+    .note {
+      color: rgba(255, 255, 255, 0.56);
+      font-size: 0.8rem;
+      margin-top: 10px;
+    }
+
+    .time-list,
+    .condition-list {
+      display: grid;
+      gap: 11px;
+    }
+
+    .time-item,
+    .condition-item {
+      padding: 14px 15px;
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 13px;
+    }
+
+    .time-item span {
+      display: block;
+      color: rgba(255, 255, 255, 0.56);
+      font-size: 0.76rem;
       margin-bottom: 3px;
     }
 
-    .work-item p {
-      color: rgba(255, 255, 255, 0.68);
-      font-size: 0.92rem;
-    }
-
-    .income-grid {
-      display: grid;
-      gap: 14px;
-      margin-bottom: 18px;
-    }
-
-    .income-card {
-      padding: 22px;
-      background: rgba(255, 255, 255, 0.08);
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      border-radius: 16px;
-    }
-
-    .income-card span {
-      display: block;
-      color: rgba(255, 255, 255, 0.62);
-      font-size: 0.86rem;
-      margin-bottom: 5px;
-    }
-
-    .income-card strong {
-      display: block;
-      color: #e8d5b7;
-      font-size: clamp(1.65rem, 3vw, 2.2rem);
-      line-height: 1.25;
-      letter-spacing: -0.02em;
-    }
-
-    .income-note {
-      color: rgba(255, 255, 255, 0.58);
-      font-size: 0.82rem;
-      line-height: 1.65;
-    }
-
-    .job-detail-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 16px;
-      margin-top: 26px;
-    }
-
-    .job-detail-card {
-      padding: 20px;
-      background: rgba(255, 255, 255, 0.07);
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      border-radius: 15px;
-    }
-
-    .job-detail-card span {
-      display: block;
-      color: rgba(255, 255, 255, 0.56);
-      font-size: 0.78rem;
-      margin-bottom: 5px;
-    }
-
-    .job-detail-card strong {
-      display: block;
+    .time-item strong {
       color: var(--white);
-      font-size: 1rem;
-      line-height: 1.45;
+      font-size: 0.95rem;
     }
 
-    .conditions-row {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 18px;
-      margin-top: 18px;
-    }
-
-    .condition-box {
-      padding: 24px;
-      background: rgba(255, 255, 255, 0.06);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 16px;
-    }
-
-    .condition-box h4 {
-      margin-bottom: 13px;
-      font-size: 1rem;
-    }
-
-    .condition-list {
-      display: grid;
-      gap: 9px;
-    }
-
-    .condition-list li {
-      list-style: none;
+    .condition-item {
       display: flex;
-      align-items: flex-start;
       gap: 9px;
-      color: rgba(255, 255, 255, 0.67);
+      align-items: flex-start;
+      color: rgba(255, 255, 255, 0.72);
       font-size: 0.88rem;
     }
 
-    .condition-list li::before {
+    .condition-item::before {
       content: "✓";
-      color: #d7c09f;
+      color: #dec7a7;
       font-weight: 900;
     }
 
     .vehicle-layout {
       display: grid;
-      grid-template-columns: 1.06fr 0.94fr;
-      gap: 28px;
-      align-items: stretch;
+      grid-template-columns: 1.04fr 0.96fr;
+      gap: 34px;
+      align-items: center;
     }
 
-    .vehicle-main-photo {
+    .vehicle-photo {
       overflow: hidden;
       border-radius: var(--radius-xl);
       box-shadow: var(--shadow-md);
     }
 
-    .vehicle-main-photo img {
-      height: 100%;
-      min-height: 520px;
+    .vehicle-photo img {
+      aspect-ratio: 4 / 4.25;
       object-fit: cover;
-      object-position: center;
-    }
-
-    .vehicle-panel {
-      display: grid;
-      grid-template-rows: auto 1fr;
-      gap: 18px;
-    }
-
-    .vehicle-copy {
-      padding: 36px;
-      color: var(--white);
-      background: var(--navy-900);
-      border-radius: var(--radius-xl);
-      box-shadow: var(--shadow-md);
-    }
-
-    .vehicle-label {
-      display: inline-flex;
-      padding: 7px 11px;
-      margin-bottom: 17px;
-      color: #dfc8a7;
-      background: rgba(170, 135, 91, 0.13);
-      border: 1px solid rgba(223, 200, 167, 0.18);
-      border-radius: 999px;
-      font-size: 0.78rem;
-      font-weight: 900;
     }
 
     .vehicle-copy h2 {
-      font-size: clamp(2rem, 4vw, 2.9rem);
-      line-height: 1.2;
-      letter-spacing: -0.035em;
-      margin-bottom: 15px;
+      color: var(--navy-900);
+      font-size: clamp(1.9rem, 4vw, 2.8rem);
+      line-height: 1.22;
+      margin-bottom: 14px;
     }
 
     .vehicle-copy > p {
-      color: rgba(255, 255, 255, 0.68);
-      margin-bottom: 23px;
+      color: var(--muted);
+      margin-bottom: 22px;
     }
 
     .vehicle-benefits {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 10px;
+      margin-bottom: 22px;
     }
 
     .vehicle-benefit {
       padding: 16px 10px;
       text-align: center;
-      background: rgba(255, 255, 255, 0.07);
-      border: 1px solid rgba(255, 255, 255, 0.11);
+      color: var(--navy-900);
+      background: var(--bronze-100);
       border-radius: 14px;
       font-size: 0.84rem;
       font-weight: 800;
@@ -851,216 +576,93 @@
 
     .vehicle-benefit strong {
       display: block;
-      color: #e2c9a6;
-      font-size: 1.42rem;
+      color: var(--bronze-600);
+      font-size: 1.45rem;
       line-height: 1.2;
-      margin-bottom: 2px;
     }
 
-    .detail-photo {
-      position: relative;
-      overflow: hidden;
-      min-height: 205px;
-      border-radius: var(--radius-lg);
-      box-shadow: var(--shadow-sm);
-    }
-
-    .detail-photo img {
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .detail-photo::after {
-      content: "";
-      position: absolute;
-      inset: 45% 0 0;
-      background: linear-gradient(180deg, transparent, rgba(16, 26, 41, 0.83));
-    }
-
-    .detail-caption {
-      position: absolute;
-      left: 20px;
-      right: 20px;
-      bottom: 17px;
-      z-index: 2;
-      color: var(--white);
-    }
-
-    .detail-caption strong {
-      display: block;
-      margin-bottom: 3px;
-    }
-
-    .detail-caption span {
-      color: rgba(255, 255, 255, 0.68);
-      font-size: 0.82rem;
-    }
-
-    .area-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-
-    .area-pill {
-      padding: 11px 18px;
-      color: var(--navy-900);
-      background: var(--white);
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      box-shadow: 0 4px 14px rgba(16, 26, 41, 0.035);
-      font-size: 0.9rem;
-      font-weight: 900;
-    }
-
-    .closing-cta {
-      padding: 0 0 104px;
-    }
-
-    .closing-box {
+    .company-box {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      gap: 32px;
+      grid-template-columns: 1fr auto;
+      gap: 28px;
       align-items: center;
-      padding: 44px;
+      padding: 34px;
       color: var(--white);
-      background:
-        radial-gradient(circle at 90% 0%, rgba(170, 135, 91, 0.2), transparent 30%),
-        var(--navy-900);
+      background: var(--navy-900);
       border-radius: var(--radius-xl);
       box-shadow: var(--shadow-lg);
     }
 
-    .closing-copy h2 {
-      font-size: clamp(1.9rem, 4vw, 2.8rem);
+    .company-box h2 {
+      font-size: clamp(1.65rem, 3.5vw, 2.35rem);
       line-height: 1.25;
-      letter-spacing: -0.035em;
-      margin-bottom: 10px;
+      margin-bottom: 8px;
     }
 
-    .closing-copy p {
-      color: rgba(255, 255, 255, 0.66);
+    .company-box p {
+      color: rgba(255, 255, 255, 0.67);
+      font-size: 0.91rem;
     }
 
-    .closing-actions {
+    .company-links {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
     }
 
-    .contact-layout {
-      display: grid;
-      grid-template-columns: 0.95fr 1.05fr;
-      gap: 65px;
-      align-items: center;
-    }
-
-    .contact-copy h2 {
-      color: var(--white);
-      font-size: clamp(2rem, 4vw, 3.05rem);
-      line-height: 1.2;
-      letter-spacing: -0.035em;
-      margin-bottom: 16px;
-    }
-
-    .contact-copy p {
-      color: rgba(255, 255, 255, 0.66);
-    }
-
-    .contact-card {
-      padding: 30px;
-      background: rgba(255, 255, 255, 0.07);
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      border-radius: var(--radius-lg);
-    }
-
-    .contact-row {
-      display: grid;
-      grid-template-columns: 112px 1fr;
-      gap: 18px;
-      padding: 17px 0;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.11);
-    }
-
-    .contact-row:last-child {
-      border-bottom: 0;
-    }
-
-    .contact-row span {
-      color: rgba(255, 255, 255, 0.55);
-      font-size: 0.84rem;
-    }
-
-    .contact-row strong {
-      color: var(--white);
-      font-size: 0.96rem;
-      overflow-wrap: anywhere;
+    .company-info {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px 18px;
+      color: rgba(255, 255, 255, 0.62);
+      font-size: 0.79rem;
     }
 
     .floating-join {
       position: fixed;
-      right: 18px;
+      right: 16px;
       top: 50%;
       z-index: 1500;
-      min-width: 112px;
-      min-height: 52px;
+      min-width: 108px;
+      min-height: 50px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      padding: 13px 18px;
+      padding: 12px 17px;
       transform: translateY(-50%);
       white-space: nowrap;
       color: var(--white);
       background: linear-gradient(135deg, var(--bronze-600), var(--bronze-500));
       border: 3px solid rgba(255, 255, 255, 0.96);
       border-radius: 999px;
-      box-shadow: 0 16px 34px rgba(148, 114, 71, 0.28);
-      font-size: 0.91rem;
+      box-shadow: 0 15px 32px rgba(148, 114, 71, 0.28);
+      font-size: 0.89rem;
       font-weight: 900;
-      letter-spacing: 0.04em;
-      line-height: 1;
-      transition: transform 0.2s ease;
-    }
-
-    .floating-join:hover {
-      transform: translateY(-50%) scale(1.04);
     }
 
     footer {
-      padding: 26px 0;
-      color: #8390a0;
+      padding: 24px 0;
+      color: #8490a0;
       background: var(--navy-950);
       text-align: center;
-      font-size: 0.82rem;
+      font-size: 0.78rem;
     }
 
-    @media (max-width: 1080px) {
-      .hero-layout {
-        grid-template-columns: minmax(0, 1fr) minmax(360px, 0.9fr);
-        gap: 44px;
-      }
-
-      .nav-links {
-        gap: 17px;
-        font-size: 0.84rem;
-      }
-    }
-
-    @media (max-width: 930px) {
+    @media (max-width: 900px) {
       .nav-links {
         position: absolute;
-        top: 76px;
-        left: 20px;
-        right: 20px;
+        top: 72px;
+        left: 18px;
+        right: 18px;
         display: none;
         flex-direction: column;
         align-items: stretch;
         gap: 5px;
         padding: 14px;
-        color: var(--ink);
         background: var(--white);
         border: 1px solid var(--line);
-        border-radius: 18px;
+        border-radius: 17px;
         box-shadow: var(--shadow-md);
       }
 
@@ -1069,7 +671,7 @@
       }
 
       .nav-links a {
-        padding: 10px 12px;
+        padding: 9px 11px;
       }
 
       .nav-links .nav-cta {
@@ -1081,96 +683,55 @@
       }
 
       .hero-layout,
-      .about-layout,
-      .operations-layout,
-      .recruit-layout,
-      .vehicle-layout,
-      .contact-layout {
+      .flow-layout,
+      .recruit-grid,
+      .vehicle-layout {
         grid-template-columns: 1fr;
       }
 
-      .hero-layout {
-        gap: 46px;
-      }
-
-      .hero-media {
+      .hero-photo,
+      .flow-photo,
+      .vehicle-photo {
         width: min(100%, 680px);
         margin-inline: auto;
       }
 
-      .hero-image img {
+      .hero-photo img {
         aspect-ratio: 16 / 11;
       }
 
-      .hero-card {
-        left: 24px;
-      }
-
-      .summary-grid {
+      .quick-grid {
         grid-template-columns: repeat(2, 1fr);
       }
 
-      .summary-item:nth-child(3) {
-        border-left: 0;
-        border-top: 1px solid var(--line);
-      }
-
-      .summary-item:nth-child(4) {
-        border-top: 1px solid var(--line);
-      }
-
-      .service-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-
-      .vehicle-main-photo img {
-        min-height: 420px;
-        max-height: 620px;
-      }
-
-      .closing-box {
+      .company-box {
         grid-template-columns: 1fr;
       }
     }
 
-    @media (max-width: 720px) {
-      .section {
-        padding: 78px 0;
+    @media (max-width: 600px) {
+      body {
+        font-size: 15px;
       }
 
-      .hero {
-        padding: 68px 0 86px;
-      }
-
-      .section-heading {
-        margin-bottom: 34px;
-      }
-
-      .job-detail-grid,
-      .conditions-row {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    @media (max-width: 580px) {
       .container {
         width: min(calc(100% - 28px), var(--max-width));
       }
 
-      .brand-copy strong {
-        font-size: 0.92rem;
+      .section {
+        padding: 62px 0;
       }
 
-      .brand-copy small {
-        font-size: 0.62rem;
+      .hero {
+        padding: 54px 0 72px;
       }
 
-      .hero-copy h1 {
-        font-size: clamp(2.45rem, 12vw, 3.35rem);
+      .hero h1 {
+        font-size: clamp(2.25rem, 11.5vw, 3.2rem);
       }
 
       .hero-actions,
-      .closing-actions {
+      .company-links {
         flex-direction: column;
       }
 
@@ -1178,71 +739,68 @@
         width: 100%;
       }
 
-      .hero-image img {
-        aspect-ratio: 4 / 4.3;
+      .hero-photo img {
+        aspect-ratio: 4 / 3.5;
       }
 
-      .hero-card {
-        position: relative;
-        left: auto;
-        bottom: auto;
-        width: auto;
-        margin: -18px 14px 0;
+      .trust-label {
+        position: static;
+        border-radius: 0;
+        font-size: 0.78rem;
       }
 
-      .summary-grid,
-      .service-grid {
-        grid-template-columns: 1fr;
+      .quick-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-top: -24px;
       }
 
-      .summary-item + .summary-item {
-        border-left: 0;
-        border-top: 1px solid var(--line);
+      .quick-card {
+        min-height: 96px;
+        padding: 15px;
       }
 
-      .recruit-card,
-      .vehicle-copy,
-      .closing-box,
-      .contact-card {
-        padding: 24px;
+      .quick-card strong {
+        font-size: 1rem;
+      }
+
+      .quick-card span {
+        font-size: 0.74rem;
+      }
+
+      .panel {
+        padding: 23px;
       }
 
       .vehicle-benefits {
         grid-template-columns: 1fr;
       }
 
-      .vehicle-main-photo img {
-        min-height: 330px;
-      }
-
-      .contact-row {
-        grid-template-columns: 1fr;
-        gap: 4px;
+      .company-box {
+        padding: 24px;
       }
 
       .floating-join {
-        right: 12px;
-        bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+        right: 11px;
+        bottom: calc(13px + env(safe-area-inset-bottom, 0px));
         top: auto;
-        min-width: 106px;
-        min-height: 48px;
-        padding: 12px 16px;
+        min-width: 104px;
+        min-height: 47px;
+        padding: 11px 15px;
         transform: none;
-        font-size: 0.88rem;
-      }
-
-      .floating-join:hover {
-        transform: scale(1.04);
-      }
-
-      .closing-cta {
-        padding-bottom: 78px;
+        font-size: 0.86rem;
       }
     }
   </style>
 </head>
 
 <body>
+  <!--
+    Responsive design note:
+    Mobile, tablet and desktop use the same HTML content.
+    CSS only changes columns, spacing and navigation layout.
+    No section, text, image, pay information or link is removed on mobile.
+  -->
   <a class="floating-join" href="https://forms.gle/G63VF3XvaKywjEmg9" target="_blank" rel="noopener">
     立即加入
   </a>
@@ -1262,11 +820,9 @@
       </button>
 
       <nav class="nav-links" id="navLinks">
-        <a href="#about">關於我們</a>
-        <a href="#services">服務項目</a>
-        <a href="#recruit">配送員招募</a>
+        <a href="#work">工作內容</a>
+        <a href="#pay">時間與報酬</a>
         <a href="#vehicle">三輪車方案</a>
-        <a href="#areas">服務區域</a>
         <a class="nav-cta" href="https://lin.ee/uBt8uCZ" target="_blank" rel="noopener">官方 LINE</a>
       </nav>
     </div>
@@ -1276,99 +832,93 @@
     <section class="hero">
       <div class="container hero-layout">
         <div class="hero-copy">
-          <div class="eyebrow">City Logistics & Last Mile</div>
-          <h1>讓每一件包裹，<br><span>更穩定、更準時抵達。</span></h1>
+          <div class="eyebrow">蝦皮智取店・店到宅服務</div>
+          <h1>
+            3 公里市區配送
+            <span>路線短、包裹輕、有人帶。</span>
+          </h1>
           <p>
-            盛形通運有限公司以「馬上到 LINKGO」為品牌，專注於城市物流、
-            門市配送、最後一哩運輸與彈性運力整合，為企業、門市與配送夥伴
-            提供穩定、透明且有效率的配送服務。
+            從蝦皮智取店取件，配送到周邊住家。
+            適合熟悉市區道路，想掌握工作節奏的外送與配送夥伴。
           </p>
 
           <div class="hero-points">
-            <div class="hero-point">城市最後一哩配送</div>
-            <div class="hero-point">門市與智取店服務</div>
-            <div class="hero-point">彈性區域運力</div>
+            <div class="hero-point">日常輕物件</div>
+            <div class="hero-point">階級式計件報酬</div>
+            <div class="hero-point">可輪休、可支援</div>
           </div>
 
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#services">了解服務內容</a>
-            <a class="btn btn-light" href="https://forms.gle/G63VF3XvaKywjEmg9" target="_blank" rel="noopener">
-              加入配送團隊
+            <a class="btn btn-bronze" href="https://forms.gle/G63VF3XvaKywjEmg9" target="_blank" rel="noopener">
+              填寫加入表單
+            </a>
+            <a class="btn btn-light" href="https://lin.ee/uBt8uCZ" target="_blank" rel="noopener">
+              LINE 詢問
             </a>
           </div>
         </div>
 
-        <div class="hero-media">
-          <div class="hero-image">
-            <img src="assets/images/photo_driver.jpg" alt="馬上到配送夥伴與電動三輪配送車真實照片">
-          </div>
-
-          <div class="hero-card">
-            <strong>真實配送夥伴與品牌車輛</strong>
-            <p>網站使用實際車隊與作業照片，讓企業與應徵夥伴更清楚了解服務樣貌。</p>
-          </div>
+        <div class="hero-photo">
+          <img src="assets/images/driver.jpg" alt="馬上到配送夥伴與電動三輪車真實照片">
+          <div class="trust-label">真實配送夥伴與車輛照片，非素材示意圖</div>
         </div>
       </div>
     </section>
 
-    <section class="summary-strip" aria-label="公司服務特色">
-      <div class="container summary-grid">
-        <div class="summary-item">
-          <strong>城市配送</strong>
-          <span>串接門市、站點與消費者端</span>
-        </div>
-        <div class="summary-item">
-          <strong>彈性調度</strong>
-          <span>依區域、時段與貨量安排運力</span>
-        </div>
-        <div class="summary-item">
-          <strong>進度透明</strong>
-          <span>掌握配送狀態與異常回報</span>
-        </div>
-        <div class="summary-item">
-          <strong>長期合作</strong>
-          <span>重視企業與配送夥伴信任</span>
-        </div>
+    <div class="container quick-grid" aria-label="工作重點">
+      <div class="quick-card">
+        <strong>約 3 公里</strong>
+        <span>市區短程配送</span>
       </div>
-    </section>
+      <div class="quick-card">
+        <strong>08:30–19:00</strong>
+        <span>主要運配送時間</span>
+      </div>
+      <div class="quick-card">
+        <strong>日常輕物件</strong>
+        <span>不需搬大型重物</span>
+      </div>
+      <div class="quick-card">
+        <strong>有人教、有人帶</strong>
+        <span>流程簡單易上手</span>
+      </div>
+    </div>
 
-    <section class="section" id="about">
-      <div class="container about-layout">
-        <div class="about-photo">
-          <img src="assets/images/photo_packages.jpg" alt="實際門市包裹與配送作業場景">
+    <section class="section section-soft" id="work">
+      <div class="container flow-layout">
+        <div class="flow-photo">
+          <img src="assets/images/cargo.png" alt="電動三輪配送車實際載貨照片">
         </div>
 
-        <div class="about-content">
-          <div class="eyebrow">About Us</div>
-          <h2>以穩定運力，串起城市中的每一段配送。</h2>
-          <p>
-            我們結合區域調度、配送夥伴管理與門市服務經驗，
-            依照不同企業需求規劃合適的配送流程，協助客戶降低調度負擔、
-            提升配送效率與服務品質。
-          </p>
+        <div>
+          <div class="section-heading">
+            <div class="eyebrow">工作怎麼跑</div>
+            <h2>三個步驟，就能看懂。</h2>
+            <p>工作內容以蝦皮智取店店到宅配送為主。</p>
+          </div>
 
-          <div class="value-list">
-            <div class="value-item">
-              <div class="value-number">01</div>
+          <div class="steps">
+            <div class="step">
+              <div class="step-number">1</div>
               <div>
-                <h3>穩定履約</h3>
-                <p>重視每一項配送任務與執行品質，讓企業端更安心掌握服務結果。</p>
+                <strong>到指定智取店取件</strong>
+                <p>依安排時間到店，完成包裹取件與裝載。</p>
               </div>
             </div>
 
-            <div class="value-item">
-              <div class="value-number">02</div>
+            <div class="step">
+              <div class="step-number">2</div>
               <div>
-                <h3>彈性調度</h3>
-                <p>依照區域、時段與貨量需求配置運力，降低臨時調度壓力。</p>
+                <strong>配送周邊約 3 公里</strong>
+                <p>依清楚路線，將日常包裹送到收件人手上。</p>
               </div>
             </div>
 
-            <div class="value-item">
-              <div class="value-number">03</div>
+            <div class="step">
+              <div class="step-number">3</div>
               <div>
-                <h3>透明溝通</h3>
-                <p>將工作內容、合作條件與處理流程說明清楚，建立長期信任。</p>
+                <strong>完成當日配送</strong>
+                <p>清空即可結束；想增加件數，也可安排鄰近支援。</p>
               </div>
             </div>
           </div>
@@ -1376,285 +926,121 @@
       </div>
     </section>
 
-    <section class="section section-soft" id="services">
+    <section class="section section-dark" id="pay">
       <div class="container">
         <div class="section-heading">
-          <div class="eyebrow">Services</div>
-          <h2>從門市配送到最後一哩，提供完整物流支援。</h2>
-          <p>
-            依據企業實際營運需求，提供門市配送、城市運輸、區域調度與配送進度管理。
-          </p>
+          <div class="eyebrow">時間與報酬</div>
+          <h2>重要資訊，一次看清楚。</h2>
+          <p>採階級式計件報酬，配送件數越多，報酬級距越高。</p>
         </div>
 
-        <div class="service-grid">
-          <article class="service-card">
-            <div class="service-icon">01</div>
-            <h3>門市配送</h3>
-            <p>協助門市、智取店與指定站點進行日常包裹配送與區域運輸。</p>
-          </article>
+        <div class="recruit-grid">
+          <div class="panel">
+            <h3>報酬參考</h3>
 
-          <article class="service-card">
-            <div class="service-icon">02</div>
-            <h3>最後一哩配送</h3>
-            <p>串接倉儲、門市與收件端，完成城市物流的最後一段路程。</p>
-          </article>
-
-          <article class="service-card">
-            <div class="service-icon">03</div>
-            <h3>區域運力調度</h3>
-            <p>依不同時段、區域與貨量，安排合適的配送夥伴與支援方案。</p>
-          </article>
-
-          <article class="service-card">
-            <div class="service-icon">04</div>
-            <h3>配送進度管理</h3>
-            <p>協助掌握配送狀態、執行進度與異常回報，提升資訊透明度。</p>
-          </article>
-
-          <article class="service-card">
-            <div class="service-icon">05</div>
-            <h3>企業物流合作</h3>
-            <p>可依企業需求討論專案合作、區域承攬與長期運輸支援。</p>
-          </article>
-
-          <article class="service-card">
-            <div class="service-icon">06</div>
-            <h3>配送夥伴培訓</h3>
-            <p>透過流程說明、帶跑與教育訓練，建立穩定且專業的合作團隊。</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container operations-layout">
-        <div class="operations-photo">
-          <img src="assets/images/photo_cargo.png" alt="電動三輪配送車實際載貨空間">
-        </div>
-
-        <div class="operations-copy">
-          <div class="eyebrow">Real Operations</div>
-          <h2>真實運力與現場流程，讓服務不只停留在文字。</h2>
-          <p>
-            從取件、理貨、裝載到配送，我們以實際作業經驗調整流程，
-            讓配送夥伴更好執行，也讓企業端更容易掌握每日運力。
-          </p>
-
-          <div class="operations-list">
-            <div class="operations-item">
-              <strong>載貨空間清楚</strong>
-              <span>依包裹量與配送路線安排車體與裝載方式。</span>
+            <div class="pay-card">
+              <span>正式配送員</span>
+              <strong>$50,000–$100,000／月</strong>
             </div>
 
-            <div class="operations-item">
-              <strong>作業流程明確</strong>
-              <span>提供門市取件、配送回報與異常處理說明。</span>
+            <div class="pay-card">
+              <span>兼職配送員</span>
+              <strong>$15,000–$25,000／月</strong>
             </div>
 
-            <div class="operations-item">
-              <strong>支援安排彈性</strong>
-              <span>完成當日任務後，可依區域需求安排鄰近支援。</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-dark" id="recruit">
-      <div class="container">
-        <div class="section-heading">
-          <div class="eyebrow">Driver Recruitment</div>
-          <h2>3 公里市區配送，掌握自己的工作節奏。</h2>
-          <p>
-            蝦皮智取店店到宅服務，配送品項以日常輕物件為主。
-            路線清楚、有人教也有人帶，歡迎具外送、宅配或配送經驗的夥伴加入。
-          </p>
-        </div>
-
-        <div class="recruit-layout">
-          <div class="recruit-card">
-            <h3>工作特色</h3>
-
-            <div class="work-list">
-              <div class="work-item">
-                <div class="work-number">01</div>
-                <div>
-                  <strong>配送範圍約 3 公里</strong>
-                  <p>以市區短程路線為主，熟悉後更容易建立固定配送節奏。</p>
-                </div>
-              </div>
-
-              <div class="work-item">
-                <div class="work-number">02</div>
-                <div>
-                  <strong>完成當日配送即可結束</strong>
-                  <p>完成清空後，也可依個人意願與現場需求安排支援。</p>
-                </div>
-              </div>
-
-              <div class="work-item">
-                <div class="work-number">03</div>
-                <div>
-                  <strong>可輪休、提前調休</strong>
-                  <p>可事先安排休假；希望增加出勤，也可討論一週滿檔。</p>
-                </div>
-              </div>
-
-              <div class="work-item">
-                <div class="work-number">04</div>
-                <div>
-                  <strong>路線清楚、有人帶跑</strong>
-                  <p>提供實務流程與現場說明，讓有經驗者更快銜接。</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="recruit-card">
-            <h3>配送報酬參考</h3>
-
-            <div class="income-grid">
-              <div class="income-card">
-                <span>正式配送員</span>
-                <strong>$50,000–$100,000／月</strong>
-              </div>
-
-              <div class="income-card">
-                <span>兼職配送員</span>
-                <strong>$15,000–$25,000／月</strong>
-              </div>
-            </div>
-
-            <p class="income-note">
-              採階級式計件報酬，完成件數越多，可適用較高報酬級距。
+            <p class="note">
               實際報酬依出勤天數、配送件數、區域任務與支援安排而異。
             </p>
+          </div>
 
-            <div style="margin-top:24px;">
-              <a class="btn btn-bronze" href="https://forms.gle/G63VF3XvaKywjEmg9" target="_blank" rel="noopener">
-                立即填寫加入表單
-              </a>
+          <div class="panel">
+            <h3>取件與工作時間</h3>
+
+            <div class="time-list">
+              <div class="time-item">
+                <span>日間上架批次</span>
+                <strong>取件 10:30–11:00</strong>
+              </div>
+
+              <div class="time-item">
+                <span>夜間上架批次</span>
+                <strong>取件 08:00–09:00</strong>
+              </div>
+
+              <div class="time-item">
+                <span>主要運配送時間</span>
+                <strong>08:30–19:00</strong>
+              </div>
+            </div>
+
+            <h3 style="margin-top:24px;">簡單條件</h3>
+
+            <div class="condition-list">
+              <div class="condition-item">溝通無障礙，能配合作業回報。</div>
+              <div class="condition-item">持有有效機車駕照。</div>
+              <div class="condition-item">歡迎外送、宅配或配送經驗者。</div>
+              <div class="condition-item">穩重、有責任心，更適合長期合作。</div>
             </div>
           </div>
         </div>
 
-        <div class="job-detail-grid">
-          <div class="job-detail-card">
-            <span>日間上架批次</span>
-            <strong>取件時間 10:30–11:00</strong>
-          </div>
-
-          <div class="job-detail-card">
-            <span>夜間上架批次</span>
-            <strong>取件時間 08:00–09:00</strong>
-          </div>
-
-          <div class="job-detail-card">
-            <span>主要運配送時間</span>
-            <strong>08:30–19:00</strong>
-          </div>
-        </div>
-
-        <div class="conditions-row">
-          <div class="condition-box">
-            <h4>基本條件</h4>
-            <ul class="condition-list">
-              <li>溝通無障礙，能配合作業回報。</li>
-              <li>持有有效機車駕照。</li>
-              <li>性別、年齡不限。</li>
-              <li>個性穩重、有責任心者更適合。</li>
-            </ul>
-          </div>
-
-          <div class="condition-box">
-            <h4>經驗加分</h4>
-            <ul class="condition-list">
-              <li>具外送平台跑單經驗。</li>
-              <li>具宅配、快遞或物流配送經驗。</li>
-              <li>熟悉市區道路與導航操作。</li>
-              <li>願意配合門市取件與配送流程。</li>
-            </ul>
-          </div>
+        <div style="margin-top:24px;">
+          <a class="btn btn-bronze" href="https://forms.gle/G63VF3XvaKywjEmg9" target="_blank" rel="noopener">
+            我想加入
+          </a>
         </div>
       </div>
     </section>
 
     <section class="section" id="vehicle">
       <div class="container vehicle-layout">
-        <div class="vehicle-main-photo">
-          <img src="assets/images/photo_fleet.png" alt="馬上到電動三輪配送車隊真實照片">
+        <div class="vehicle-photo">
+          <img src="assets/images/fleet.png" alt="馬上到電動三輪配送車隊真實照片">
         </div>
 
-        <div class="vehicle-panel">
-          <div class="vehicle-copy">
-            <div class="vehicle-label">降低養車負擔的配送工具選擇</div>
-            <h2>專業電動三輪車方案</h2>
-            <p>
-              大容量車廂可一次承載更多包裹，減少反覆往返。
-              對具配送經驗、但不希望承擔燃油與維修支出的夥伴，
-              是更適合城市配送的工具選擇。
-            </p>
-
-            <div class="vehicle-benefits">
-              <div class="vehicle-benefit">
-                <strong>0</strong>
-                油費
-              </div>
-              <div class="vehicle-benefit">
-                <strong>0</strong>
-                維修費
-              </div>
-              <div class="vehicle-benefit">
-                <strong>享</strong>
-                保修服務
-              </div>
-            </div>
-          </div>
-
-          <div class="detail-photo">
-            <img src="assets/images/photo_details.png" alt="電動三輪配送車設備與車體細節">
-            <div class="detail-caption">
-              <strong>設備與車體細節</strong>
-              <span>操控、輪胎、制動與電動系統皆為實際設備紀錄。</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-soft" id="areas">
-      <div class="container">
-        <div class="section-heading">
-          <div class="eyebrow">Service Area</div>
-          <h2>服務區域</h2>
+        <div class="vehicle-copy">
+          <div class="eyebrow">電動三輪車方案</div>
+          <h2>載得多，也不用煩惱養車費用。</h2>
           <p>
-            目前服務涵蓋北中南多個城市；實際合作範圍與當期招募區域，
-            可透過官方 LINE 進一步確認。
+            大容量車廂可一次載更多包裹，減少往返趟次。
+            適合有配送經驗，又不想負擔油費與維修費的夥伴。
           </p>
-        </div>
 
-        <div class="area-list">
-          <div class="area-pill">台北</div>
-          <div class="area-pill">新北</div>
-          <div class="area-pill">桃園</div>
-          <div class="area-pill">新竹</div>
-          <div class="area-pill">宜蘭</div>
-          <div class="area-pill">台中</div>
-          <div class="area-pill">嘉義</div>
-          <div class="area-pill">台南</div>
-          <div class="area-pill">高雄</div>
+          <div class="vehicle-benefits">
+            <div class="vehicle-benefit">
+              <strong>0</strong>
+              油費
+            </div>
+            <div class="vehicle-benefit">
+              <strong>0</strong>
+              維修費
+            </div>
+            <div class="vehicle-benefit">
+              <strong>享</strong>
+              保修服務
+            </div>
+          </div>
+
+          <a class="btn btn-primary" href="https://lin.ee/uBt8uCZ" target="_blank" rel="noopener">
+            LINE 詢問三輪車方案
+          </a>
         </div>
       </div>
     </section>
 
-    <section class="closing-cta">
-      <div class="container closing-box">
-        <div class="closing-copy">
-          <h2>企業合作或加入配送團隊，歡迎與我們聯繫。</h2>
-          <p>可先填寫加入表單，或透過官方 LINE 詢問合作內容與目前招募區域。</p>
+    <section class="section section-soft">
+      <div class="container company-box">
+        <div>
+          <h2>公司資訊公開，加入更安心。</h2>
+          <p>盛形通運有限公司｜馬上到 LINKGO</p>
+
+          <div class="company-info">
+            <span>電子信箱：linkgo@iamgofer.com</span>
+            <span>地址：114臺北市內湖區堤頂大道二段201號5樓</span>
+          </div>
         </div>
 
-        <div class="closing-actions">
+        <div class="company-links">
           <a class="btn btn-bronze" href="https://forms.gle/G63VF3XvaKywjEmg9" target="_blank" rel="noopener">
             立即加入
           </a>
@@ -1664,51 +1050,11 @@
         </div>
       </div>
     </section>
-
-    <section class="section section-dark" id="contact">
-      <div class="container contact-layout">
-        <div class="contact-copy">
-          <div class="eyebrow">Contact</div>
-          <h2>公司資訊與聯絡方式</h2>
-          <p>
-            企業合作、物流需求與配送夥伴招募，
-            歡迎透過官方 LINE 或電子信箱與我們聯繫。
-          </p>
-        </div>
-
-        <div class="contact-card">
-          <div class="contact-row">
-            <span>公司名稱</span>
-            <strong>盛形通運有限公司</strong>
-          </div>
-
-          <div class="contact-row">
-            <span>品牌名稱</span>
-            <strong>馬上到 LINKGO</strong>
-          </div>
-
-          <div class="contact-row">
-            <span>官方 LINE</span>
-            <strong><a href="https://lin.ee/uBt8uCZ" target="_blank" rel="noopener">@gofer／點擊加入</a></strong>
-          </div>
-
-          <div class="contact-row">
-            <span>電子信箱</span>
-            <strong><a href="mailto:linkgo@iamgofer.com">linkgo@iamgofer.com</a></strong>
-          </div>
-
-          <div class="contact-row">
-            <span>公司地址</span>
-            <strong>114臺北市內湖區堤頂大道二段201號5樓</strong>
-          </div>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer>
     <div class="container">
-      © <span id="year"></span> 盛形通運有限公司・馬上到 LINKGO. All Rights Reserved.
+      © <span id="year"></span> 盛形通運有限公司・馬上到 LINKGO
     </div>
   </footer>
 
